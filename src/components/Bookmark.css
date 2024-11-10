@@ -1,0 +1,79 @@
+/* BookmarkComponent.css */
+
+/* Set the background color for the entire component */
+body {
+  background-color: #E9EFEC; /* Light background */
+}
+
+/* Style for the container */
+.container {
+  margin-top: 5rem;
+}
+
+/* Style for the card */
+.card {
+  background-color: #C4DAD2; /* Light greenish background */
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the card title */
+.card-title {
+  color: #16423C; /* Dark green for the title */
+}
+
+/* Style for the form labels */
+.form-label {
+  color: #16423C; /* Dark green for labels */
+}
+
+/* Style for form controls (inputs) */
+.form-control {
+  border: 1px solid #6A9C89; /* Medium green border */
+  border-radius: 5px;
+}
+
+/* Style for input focus */
+.form-control:focus {
+  border-color: #6A9C89; /* Medium green border on focus */
+  box-shadow: 0 0 0.2rem rgba(106, 156, 137, 0.5); /* Greenish shadow on focus */
+}
+
+/* Style for buttons */
+.btn {
+  background-color: #16423C; /* Dark green for button */
+  border-color: #16423C; /* Match border color */
+  color: white;
+}
+
+.btn:hover {
+  background-color: #6A9C89; /* Lighten on hover */
+  border-color: #6A9C89; /* Match border color */
+}
+
+/* Style for the error message */
+.alert {
+  background-color: #FAF0E6; /* Light cream for error message */
+  color: #FF0000; /* Red text for error */
+  border: 1px solid #FF0000; /* Red border for error */
+}
+
+/* Style for list items */
+.list-group-item {
+  background-color: #E9EFEC; /* Light background for list items */
+  border: 1px solid #C4DAD2; /* Light green border for list items */
+}
+
+/* Style for the search input */
+.list-group .form-control {
+  border: 1px solid #6A9C89; /* Medium green border for search */
+}
+
+/* Style for small text (added time) */
+small {
+  color: #6A9C89; /* Medium green for added time text */
+}
+strong{
+  color: #197e7a;
+}
